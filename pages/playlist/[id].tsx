@@ -1,5 +1,5 @@
-import GradientLayout from "../../components/gradientLayout";
-import SongTable from "../../components/songsTable";
+import GradientLayout from "../../components/GradientLayout";
+import SongTable from "../../components/SongsTable";
 import { validateToken } from "../../lib/auth";
 import prisma from "../../lib/prisma";
 
