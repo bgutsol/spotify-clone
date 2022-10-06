@@ -24,6 +24,8 @@ const run = async () => {
     })
   );
 
+  
+
   const salt = bcrypt.genSaltSync();
   const user = await prisma.user.upsert({
     where: { email: "user@test.com" },
